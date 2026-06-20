@@ -1,8 +1,7 @@
 import requests
 import json
 
-# Replace with your Gemini API key
-API_KEY = "AQ.Ab8RN6I29ar_LnpHYwegd0lyUXwKjLbfy22DbuE07GeKjKK8Tg"
+API_KEY = "AQ.Ab8RN6JdT5pEyUN4CWlRmoB9hylTDDY1MVbbovHKl5j7X5Ikdw" # intentionally public key for github
 
 url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={API_KEY}"
 
